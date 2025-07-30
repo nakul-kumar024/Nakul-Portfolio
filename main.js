@@ -210,7 +210,7 @@ function toggleMenu() {
       const formData = { name, email, message };
   
       try {
-        const response = await fetch("http://localhost:5000/api/contact", {
+        const response = await fetch("https://nakul-portfolio-de0y.onrender.com/", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
